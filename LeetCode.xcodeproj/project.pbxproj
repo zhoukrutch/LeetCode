@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		790F34D521C93699006F9ABF /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 790F34D321C93699006F9ABF /* AddTwoNumbers.cpp */; };
+		791E70C121CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 791E70BF21CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp */; };
 		79C2FB0221C7E60A001785D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB0121C7E60A001785D3 /* main.cpp */; };
 		79C2FB0B21C7E682001785D3 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB0921C7E682001785D3 /* TwoSum.cpp */; };
 		79C2FB1321C7F49B001785D3 /* CommonUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB1121C7F49B001785D3 /* CommonUtil.cpp */; };
@@ -28,11 +29,12 @@
 /* Begin PBXFileReference section */
 		790F34D321C93699006F9ABF /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
 		790F34D421C93699006F9ABF /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
+		791E70BF21CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSubstringWithoutRepeatingCharacters.cpp; sourceTree = "<group>"; };
+		791E70C021CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestSubstringWithoutRepeatingCharacters.hpp; sourceTree = "<group>"; };
 		79C2FAFE21C7E60A001785D3 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C2FB0121C7E60A001785D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		79C2FB0921C7E682001785D3 /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		79C2FB0A21C7E682001785D3 /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
-		79C2FB0D21C7F25E001785D3 /* useingHeader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = useingHeader.hpp; sourceTree = "<group>"; };
 		79C2FB1121C7F49B001785D3 /* CommonUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonUtil.cpp; sourceTree = "<group>"; };
 		79C2FB1221C7F49B001785D3 /* CommonUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonUtil.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +59,15 @@
 			path = "2-AddTwoNum";
 			sourceTree = "<group>";
 		};
+		791E70BE21CA7C2800D2B706 /* 3-LongestSubstringWithoutRepeatingCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				791E70C021CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.hpp */,
+				791E70BF21CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp */,
+			);
+			path = "3-LongestSubstringWithoutRepeatingCharacters";
+			sourceTree = "<group>";
+		};
 		79C2FAF521C7E60A001785D3 = {
 			isa = PBXGroup;
 			children = (
@@ -76,10 +87,10 @@
 		79C2FB0021C7E60A001785D3 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				791E70BE21CA7C2800D2B706 /* 3-LongestSubstringWithoutRepeatingCharacters */,
 				790F34D221C93677006F9ABF /* 2-AddTwoNum */,
 				79C2FB0821C7E660001785D3 /* 1-TwoSum */,
 				79C2FB0121C7E60A001785D3 /* main.cpp */,
-				79C2FB0D21C7F25E001785D3 /* useingHeader.hpp */,
 				79C2FB1221C7F49B001785D3 /* CommonUtil.hpp */,
 				79C2FB1121C7F49B001785D3 /* CommonUtil.cpp */,
 			);
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791E70C121CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,
 				79C2FB0B21C7E682001785D3 /* TwoSum.cpp in Sources */,
 				790F34D521C93699006F9ABF /* AddTwoNumbers.cpp in Sources */,
 				79C2FB0221C7E60A001785D3 /* main.cpp in Sources */,
