@@ -39,14 +39,15 @@ int lengthOfLongestSubstring(string s) {
     int maxLength = 0;
     set<char> cache;
     int i = 0, j= 0;
+    int start = 0;
     long n = s.length();
     while (i<n && j< n) {
         if (cache.find(s[j]) == cache.end()) {
             int length = j-i+1;
             cache.insert(s[j]);
             if (length > maxLength) {
+                start = i;
                 maxLength = length;
-                cout<<s.substr(i,maxLength)<<endl;
             }
             j++;
         } else {
@@ -55,6 +56,7 @@ int lengthOfLongestSubstring(string s) {
             j = i;
         }
     }
+    cout<<s.substr(start,maxLength)<<endl;
 //    for (int i = 0; i < s.length(); i++) {
 //        cache.clear();
 //        for (int j = i; j< s.length(); j++) {

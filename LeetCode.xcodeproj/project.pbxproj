@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		790F34D521C93699006F9ABF /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 790F34D321C93699006F9ABF /* AddTwoNumbers.cpp */; };
 		791E70C121CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 791E70BF21CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp */; };
+		7996B56B21CBCF3F000B7738 /* MedianOfTwoSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7996B56921CBCF3F000B7738 /* MedianOfTwoSortedArrays.cpp */; };
 		79C2FB0221C7E60A001785D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB0121C7E60A001785D3 /* main.cpp */; };
 		79C2FB0B21C7E682001785D3 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB0921C7E682001785D3 /* TwoSum.cpp */; };
 		79C2FB1321C7F49B001785D3 /* CommonUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB1121C7F49B001785D3 /* CommonUtil.cpp */; };
@@ -31,6 +32,8 @@
 		790F34D421C93699006F9ABF /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
 		791E70BF21CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSubstringWithoutRepeatingCharacters.cpp; sourceTree = "<group>"; };
 		791E70C021CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestSubstringWithoutRepeatingCharacters.hpp; sourceTree = "<group>"; };
+		7996B56921CBCF3F000B7738 /* MedianOfTwoSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MedianOfTwoSortedArrays.cpp; sourceTree = "<group>"; };
+		7996B56A21CBCF3F000B7738 /* MedianOfTwoSortedArrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MedianOfTwoSortedArrays.hpp; sourceTree = "<group>"; };
 		79C2FAFE21C7E60A001785D3 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C2FB0121C7E60A001785D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		79C2FB0921C7E682001785D3 /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
@@ -68,6 +71,15 @@
 			path = "3-LongestSubstringWithoutRepeatingCharacters";
 			sourceTree = "<group>";
 		};
+		7996B56821CBCF1B000B7738 /* 4-MedianOfTwoSortedArrays */ = {
+			isa = PBXGroup;
+			children = (
+				7996B56921CBCF3F000B7738 /* MedianOfTwoSortedArrays.cpp */,
+				7996B56A21CBCF3F000B7738 /* MedianOfTwoSortedArrays.hpp */,
+			);
+			path = "4-MedianOfTwoSortedArrays";
+			sourceTree = "<group>";
+		};
 		79C2FAF521C7E60A001785D3 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 		79C2FB0021C7E60A001785D3 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				7996B56821CBCF1B000B7738 /* 4-MedianOfTwoSortedArrays */,
 				791E70BE21CA7C2800D2B706 /* 3-LongestSubstringWithoutRepeatingCharacters */,
 				790F34D221C93677006F9ABF /* 2-AddTwoNum */,
 				79C2FB0821C7E660001785D3 /* 1-TwoSum */,
@@ -162,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7996B56B21CBCF3F000B7738 /* MedianOfTwoSortedArrays.cpp in Sources */,
 				791E70C121CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,
 				79C2FB0B21C7E682001785D3 /* TwoSum.cpp in Sources */,
 				790F34D521C93699006F9ABF /* AddTwoNumbers.cpp in Sources */,
