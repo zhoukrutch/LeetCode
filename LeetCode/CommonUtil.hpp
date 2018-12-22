@@ -37,6 +37,6 @@ vector<int> stringToIntegerVector(string input);
 string integerVectorToString(vector<int> list);
 ListNode* stringToListNode(string input);
 string listNodeToString(ListNode* node);
-
+string stringToString(string input);
 
 #endif /* CommonUtil_hpp */

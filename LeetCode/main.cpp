@@ -11,6 +11,7 @@
 #include "2-AddTwoNum/AddTwoNumbers.hpp"
 #include "3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.hpp"
 #include "4-MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.hpp"
+#include "5-LongestPalindromicSubstring/LongestPalindromicSubstring.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -18,7 +19,8 @@ int main(int argc, const char * argv[]) {
 //    twoSumTest();
 //    addTwoNumbersTest();
 //    LongestSubstringWithoutRepeatingCharactersTest();
-    findMedianSortedArraysText();
+//    findMedianSortedArraysText();
+    longestPalindromeTest();
     return 0;
 }
 
