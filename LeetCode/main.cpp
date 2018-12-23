@@ -12,6 +12,7 @@
 #include "3-LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.hpp"
 #include "4-MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.hpp"
 #include "5-LongestPalindromicSubstring/LongestPalindromicSubstring.hpp"
+#include "6-ZigZagConversion/zigZagConversion.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -20,7 +21,8 @@ int main(int argc, const char * argv[]) {
 //    addTwoNumbersTest();
 //    LongestSubstringWithoutRepeatingCharactersTest();
 //    findMedianSortedArraysText();
-    longestPalindromeTest();
+//    longestPalindromeTest();
+    zigZagConversionTest();
     return 0;
 }
 

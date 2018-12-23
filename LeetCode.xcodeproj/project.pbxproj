@@ -14,6 +14,7 @@
 		79C2FB0221C7E60A001785D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB0121C7E60A001785D3 /* main.cpp */; };
 		79C2FB0B21C7E682001785D3 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB0921C7E682001785D3 /* TwoSum.cpp */; };
 		79C2FB1321C7F49B001785D3 /* CommonUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB1121C7F49B001785D3 /* CommonUtil.cpp */; };
+		79F60B4421CF6A1D009120B6 /* zigZagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F60B4221CF6A1D009120B6 /* zigZagConversion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		79C2FB0A21C7E682001785D3 /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
 		79C2FB1121C7F49B001785D3 /* CommonUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonUtil.cpp; sourceTree = "<group>"; };
 		79C2FB1221C7F49B001785D3 /* CommonUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonUtil.hpp; sourceTree = "<group>"; };
+		79F60B4221CF6A1D009120B6 /* zigZagConversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zigZagConversion.cpp; sourceTree = "<group>"; };
+		79F60B4321CF6A1D009120B6 /* zigZagConversion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = zigZagConversion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,15 @@
 				791E70BF21CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp */,
 			);
 			path = "3-LongestSubstringWithoutRepeatingCharacters";
+			sourceTree = "<group>";
+		};
+		794CC02321CF69C20009B6F4 /* 6-ZigZagConversion */ = {
+			isa = PBXGroup;
+			children = (
+				79F60B4221CF6A1D009120B6 /* zigZagConversion.cpp */,
+				79F60B4321CF6A1D009120B6 /* zigZagConversion.hpp */,
+			);
+			path = "6-ZigZagConversion";
 			sourceTree = "<group>";
 		};
 		7996B56821CBCF1B000B7738 /* 4-MedianOfTwoSortedArrays */ = {
@@ -111,6 +123,7 @@
 		79C2FB0021C7E60A001785D3 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				794CC02321CF69C20009B6F4 /* 6-ZigZagConversion */,
 				79C2317F21CE37F80084BEC3 /* 5-LongestPalindromicSubstring */,
 				7996B56821CBCF1B000B7738 /* 4-MedianOfTwoSortedArrays */,
 				791E70BE21CA7C2800D2B706 /* 3-LongestSubstringWithoutRepeatingCharacters */,
@@ -195,6 +208,7 @@
 				790F34D521C93699006F9ABF /* AddTwoNumbers.cpp in Sources */,
 				79C2FB0221C7E60A001785D3 /* main.cpp in Sources */,
 				79C2FB1321C7F49B001785D3 /* CommonUtil.cpp in Sources */,
+				79F60B4421CF6A1D009120B6 /* zigZagConversion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
