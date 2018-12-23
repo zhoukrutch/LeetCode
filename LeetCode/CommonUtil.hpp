@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <stack>
 #include <vector>
 #include <map>
 #include <set>
