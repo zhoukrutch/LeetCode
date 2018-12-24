@@ -14,6 +14,7 @@
 #include "5-LongestPalindromicSubstring/LongestPalindromicSubstring.hpp"
 #include "6-ZigZagConversion/zigZagConversion.hpp"
 #include "7-ReverseInteger/ReverseInteger.hpp"
+#include "8-StringtoInteger/StringToInteger.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -24,7 +25,8 @@ int main(int argc, const char * argv[]) {
 //    findMedianSortedArraysText();
 //    longestPalindromeTest();
 //    zigZagConversionTest();
-    reverseIntegerTest();
+//    reverseIntegerTest();
+    stringToIntegerTest();
     return 0;
 }
 

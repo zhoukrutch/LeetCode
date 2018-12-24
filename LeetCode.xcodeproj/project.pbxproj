@@ -15,6 +15,7 @@
 		79C2FB0221C7E60A001785D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB0121C7E60A001785D3 /* main.cpp */; };
 		79C2FB0B21C7E682001785D3 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB0921C7E682001785D3 /* TwoSum.cpp */; };
 		79C2FB1321C7F49B001785D3 /* CommonUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C2FB1121C7F49B001785D3 /* CommonUtil.cpp */; };
+		79F0DBB821D1265F003C96E5 /* StringToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F0DBB621D1265F003C96E5 /* StringToInteger.cpp */; };
 		79F60B4421CF6A1D009120B6 /* zigZagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F60B4221CF6A1D009120B6 /* zigZagConversion.cpp */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		79C2FB0A21C7E682001785D3 /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
 		79C2FB1121C7F49B001785D3 /* CommonUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonUtil.cpp; sourceTree = "<group>"; };
 		79C2FB1221C7F49B001785D3 /* CommonUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonUtil.hpp; sourceTree = "<group>"; };
+		79F0DBB621D1265F003C96E5 /* StringToInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StringToInteger.cpp; path = "LeetCode/8-StringtoInteger/StringToInteger.cpp"; sourceTree = SOURCE_ROOT; };
+		79F0DBB721D1265F003C96E5 /* StringToInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = StringToInteger.hpp; path = "LeetCode/8-StringtoInteger/StringToInteger.hpp"; sourceTree = SOURCE_ROOT; };
 		79F60B4221CF6A1D009120B6 /* zigZagConversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zigZagConversion.cpp; sourceTree = "<group>"; };
 		79F60B4321CF6A1D009120B6 /* zigZagConversion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = zigZagConversion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +129,7 @@
 		79C2FB0021C7E60A001785D3 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				79F0DBB521D12647003C96E5 /* 8-StringtoInteger */,
 				79F60B4521CF88CC009120B6 /* 7-ReverseInteger */,
 				794CC02321CF69C20009B6F4 /* 6-ZigZagConversion */,
 				79C2317F21CE37F80084BEC3 /* 5-LongestPalindromicSubstring */,
@@ -147,6 +151,15 @@
 				79C2FB0921C7E682001785D3 /* TwoSum.cpp */,
 			);
 			path = "1-TwoSum";
+			sourceTree = "<group>";
+		};
+		79F0DBB521D12647003C96E5 /* 8-StringtoInteger */ = {
+			isa = PBXGroup;
+			children = (
+				79F0DBB721D1265F003C96E5 /* StringToInteger.hpp */,
+				79F0DBB621D1265F003C96E5 /* StringToInteger.cpp */,
+			);
+			path = "8-StringtoInteger";
 			sourceTree = "<group>";
 		};
 		79F60B4521CF88CC009120B6 /* 7-ReverseInteger */ = {
@@ -214,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F0DBB821D1265F003C96E5 /* StringToInteger.cpp in Sources */,
 				7996B56B21CBCF3F000B7738 /* MedianOfTwoSortedArrays.cpp in Sources */,
 				791E70C121CA7C4100D2B706 /* LongestSubstringWithoutRepeatingCharacters.cpp in Sources */,
 				79C2318221CE380A0084BEC3 /* LongestPalindromicSubstring.cpp in Sources */,
